@@ -7,5 +7,9 @@ This script needs to run 24/7. Because it searches for new post in the given fac
 ### How to run
 - Install dependecies: `pip install -r requiremens.txt`  
 - Configure the project in *config.py*.  
-- Run `python main.py`  
-And you are good to go!
+- Run `python main.py`
+    
+And you are good to go!    
+
+**Note:** The facebook scraper library needs facebook login cookies to get post datas.
+So you can only run it directly in your personal device. Though you can extract your cookies and host the script somewhere else, it isn't recommended unless the hosting environment is completely private and secure.
